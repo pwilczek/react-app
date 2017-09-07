@@ -1,15 +1,13 @@
 import React from 'react';
 
+import te from '../../../styles/style.css'
+
 export default class Bar extends React.Component {
 
   render() {
     return (
-      <div class="x">
-        <div class="y"></div>
-        <div class="z"></div>
-        <div class="v"></div>
-      </div>
-      );
+      <div class='te'>lala</div>
+    );
   }
 }
 
