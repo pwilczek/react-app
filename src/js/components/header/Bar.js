@@ -1,13 +1,16 @@
 import React from 'react';
 
-import te from '../../../styles/style.css'
+import css from '../../../styles/style.scss'
+import scss from '../../../styles/style.css'
 
 export default class Bar extends React.Component {
 
   render() {
     return (
-      <div class='te'>lala</div>
+      <div>
+        <div class='other'>lala</div>
+        <div class='some'>pipi</div>
+      </div>
     );
   }
 }
-
